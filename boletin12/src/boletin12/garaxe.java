@@ -34,7 +34,7 @@ return matricula;
 }
 
 public float horasAparcado(){
-horas = Float.parseFloat (JOptionPane.showInputDialog("Introduce numero de horas aparcado"));
+horas = Float.parseFloat (JOptionPane.showInputDialog("Introduce numero de horas aparcado "));
 return horas;
 }
 
