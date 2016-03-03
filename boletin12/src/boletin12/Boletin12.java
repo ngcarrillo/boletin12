@@ -21,7 +21,7 @@ public class Boletin12 {
     garaxe garaxe1 = new garaxe();
     garaxe1.calcularPrecio();
     int numCoches = 0;
-    int aparcar = Integer.parseInt(JOptionPane.showInputDialog("Si quieres aparcar pulsa 1 si te vas pulsa 2"));
+    int aparcar = Integer.parseInt(JOptionPane.showInputDialog("Si quieres aparcar pulsa 1 si te vas pulsa 2 "));
     
     switch (aparcar){
         case 1:
@@ -33,6 +33,8 @@ public class Boletin12 {
             JOptionPane.showMessageDialog(null, "A matricula do vehiculo é "+garaxe1.matricula());
             JOptionPane.showMessageDialog(null, "O numero de horas que ha estado aparcado é: " );
             numCoches--;
+            
+            
     }
     
     }
